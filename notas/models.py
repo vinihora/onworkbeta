@@ -5,6 +5,6 @@ class Question(models.Model):
     question_text = models.CharField(max_length=250)
     pub_date = models.DateTimeField("date published")
 
-class Questee(models.Model):
+class QuesteQA(models.Model):
     question_text = models.CharField(max_length=250)
     pub_date = models.DateTimeField("date published")
